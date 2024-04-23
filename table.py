@@ -48,7 +48,7 @@ CREATE TABLE IF NOT EXISTS detail (
             # for row in rows:
             #     print(row)
             # print("Data updated successfully.")
-# Close the cursor and the connection
+# delete query and view the table
             delete_query = "DELETE FROM detail WHERE id = 1"
             cursor.execute(delete_query)
             sqliteConnection.commit()  # Commit the transaction
